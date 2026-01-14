@@ -1,0 +1,856 @@
+{
+  "categories": {
+    "ceyloneseBodyRituals": [
+      {
+        "code": "907",
+        "name": "Hot Sand Massage Ritual",
+        "duration": 90,
+        "localPrice": 14300,
+        "foreignPrice": 18300,
+        "benefits": ["Back & joint pain relief", "Jet lag relief", "Internal balance"]
+      },
+      {
+        "code": "906",
+        "name": "Ultimate Body Ritual",
+        "duration": 90,
+        "localPrice": 14300,
+        "foreignPrice": 18300,
+        "benefits": ["Joint aches", "Muscle pain", "Sports injuries recovery"]
+      },
+      {
+        "code": "923",
+        "name": "Deep Tissue Massage Ritual",
+        "duration": 90,
+        "localPrice": 15800,
+        "foreignPrice": 19800,
+        "benefits": ["Back & shoulder stiffness", "Sports injuries", "Travel fatigue"]
+      },
+      {
+        "code": "916",
+        "name": "Back Pain Relief Ritual",
+        "duration": 60,
+        "localPrice": 12700,
+        "foreignPrice": 16700,
+        "benefits": ["Lower back & shoulder pain relief"]
+      },
+      {
+        "code": "803",
+        "name": "SeaVeda Uplifting Marine Body Ritual",
+        "duration": 90,
+        "localPrice": 15700,
+        "foreignPrice": 19700,
+        "benefits": ["Ocean-inspired", "Fatigue release", "Muscle tension relief"]
+      }
+    ],
+    "calmingRituals": [
+      {
+        "code": "920",
+        "name": "Sleep Therapy Calming Body Ritual",
+        "duration": 90,
+        "localPrice": 15800,
+        "foreignPrice": 19800,
+        "benefits": ["Deep restful sleep", "Stress relief"]
+      },
+      {
+        "code": "921",
+        "name": "Sleep Therapy Calming Scalp Ritual",
+        "duration": 60,
+        "localPrice": 7600,
+        "foreignPrice": 10600,
+        "benefits": ["Sleep induction", "Head & neck relaxation"]
+      },
+      {
+        "code": "804",
+        "name": "ForestVeda Calming Body Ritual",
+        "duration": 90,
+        "localPrice": 15700,
+        "foreignPrice": 19700,
+        "benefits": ["Forest-inspired", "Inner balance", "Sleep preparation"]
+      }
+    ],
+    "calmingDeStressRituals": [
+      {
+        "code": "933",
+        "name": "Shirodhara Stress Relief Ritual",
+        "duration": 90,
+        "localPrice": 15100,
+        "foreignPrice": 19100,
+        "restrictions": "Royal Spa, WHITE SPA & Dutch Square only"
+      },
+      {
+        "code": "885",
+        "name": "Deep Calming Shiro - Short Hair",
+        "duration": 60,
+        "price": 9500,
+        "benefits": ["Third eye activation", "Scalp nourishment"],
+        "restrictions": "Bambalapitiya, Kotte, Pelawatte, Nawala, Ward Place, Horton Place & Dehiwala"
+      },
+      {
+        "code": "886",
+        "name": "Deep Calming Shiro - Mid Length Hair",
+        "duration": 60,
+        "price": 10600,
+        "restrictions": "Bambalapitiya, Kotte, Pelawatte, Nawala, Ward Place, Horton Place & Dehiwala"
+      },
+      {
+        "code": "887",
+        "name": "Deep Calming Shiro - Long Hair",
+        "duration": 60,
+        "price": 11800,
+        "restrictions": "Bambalapitiya, Kotte, Pelawatte, Nawala, Ward Place, Horton Place & Dehiwala"
+      },
+      {
+        "code": "945",
+        "name": "Deep Calming Shiro - Short Hair + Scalp Scrub",
+        "duration": 60,
+        "price": 10600,
+        "restrictions": "Bambalapitiya, Kotte, Pelawatte, Nawala, Ward Place, Horton Place & Dehiwala"
+      },
+      {
+        "code": "949",
+        "name": "Deep Calming Shiro - Mid Length + Scalp Scrub",
+        "duration": 60,
+        "price": 11800,
+        "restrictions": "Bambalapitiya, Kotte, Pelawatte, Nawala, Ward Place, Horton Place & Dehiwala"
+      },
+      {
+        "code": "988",
+        "name": "Deep Calming Shiro - Long Hair + Scalp Scrub",
+        "duration": 60,
+        "price": 13000,
+        "restrictions": "Bambalapitiya, Kotte, Pelawatte, Nawala, Ward Place, Horton Place & Dehiwala"
+      }
+    ],
+    "footRituals": [
+      {
+        "code": "901",
+        "name": "Ultimate Foot Ritual",
+        "duration": 90,
+        "localPrice": 7600,
+        "foreignPrice": 11600,
+        "benefits": ["Reflexology + head/neck/shoulder massage included"],
+        "restrictions": "Foreign Therapist option not available at Dehiwala"
+      },
+      {
+        "code": "902",
+        "name": "Luxury Foot Ritual",
+        "duration": 60,
+        "localPrice": 6800,
+        "foreignPrice": 9800,
+        "benefits": ["Reflexology", "Inner healing"],
+        "restrictions": "Foreign Therapist option not available at Dehiwala"
+      },
+      {
+        "code": "903",
+        "name": "Foot Rescue Ritual",
+        "duration": 90,
+        "localPrice": 8700,
+        "foreignPrice": 12700,
+        "benefits": ["Severe foot pain", "Problem area treatment"],
+        "restrictions": "Foreign Therapist option not available at Dehiwala"
+      },
+      {
+        "code": "919",
+        "name": "Sleep Therapy Calming Foot Ritual",
+        "duration": 90,
+        "localPrice": 8700,
+        "foreignPrice": 12800,
+        "benefits": ["Marma point therapy", "Sleep promotion"],
+        "restrictions": "Foreign Therapist option not available at Dehiwala"
+      }
+    ],
+    "headNeckBackShoulderRituals": [
+      {
+        "code": "904",
+        "name": "Head, Neck & Shoulder Ritual",
+        "duration": 60,
+        "localPrice": 6800,
+        "foreignPrice": 9800,
+        "benefits": ["Muscle tension relief + hand massage"]
+      },
+      {
+        "code": "905",
+        "name": "Sinus Relief Ritual",
+        "duration": 45,
+        "localPrice": 6800,
+        "foreignPrice": 9800,
+        "benefits": ["Sinus clearing", "Clarity"]
+      },
+      {
+        "code": "909",
+        "name": "Stress Relief Ritual",
+        "duration": 60,
+        "localPrice": 6800,
+        "foreignPrice": 9800,
+        "benefits": ["Third eye focus", "Headache/migraine relief"]
+      },
+      {
+        "code": "911",
+        "name": "Scalp Massage Ritual",
+        "duration": 60,
+        "localPrice": 6800,
+        "foreignPrice": 9800,
+        "benefits": ["Chakra point focus", "Sleep promotion"]
+      }
+    ],
+    "purifyingRituals": [
+      {
+        "code": "936",
+        "name": "Body Polish Skin Renewal Ritual",
+        "duration": 60,
+        "localPrice": 12700,
+        "foreignPrice": 15700,
+        "benefits": ["Exfoliation", "Hydration", "Radiance"]
+      },
+      {
+        "code": "959",
+        "name": "Detox & Purify - Warming Mineral Body Wrap",
+        "duration": 90,
+        "localPrice": 16600,
+        "foreignPrice": 20600,
+        "benefits": ["Toxin removal", "Chakra balancing"]
+      },
+      {
+        "code": "850",
+        "name": "Detox Purifying Body Ritual",
+        "duration": 120,
+        "localPrice": 22000,
+        "foreignPrice": 26000,
+        "benefits": ["Lymphatic drainage", "Coffee body polish"]
+      },
+      {
+        "code": "935",
+        "name": "After-Sun Skin Rescue Ritual",
+        "duration": 60,
+        "localPrice": 12700,
+        "foreignPrice": 15700,
+        "benefits": ["Sun damage repair", "Aloe Vera treatment"]
+      }
+    ],
+    "cardamomRoseRituals": [
+      {
+        "code": "874",
+        "name": "Cardamom Rose Body Ritual",
+        "duration": 120,
+        "localPrice": 21300,
+        "foreignPrice": 25300,
+        "benefits": ["Himalayan Rose + Ceylon Cardamom", "Full body pampering"]
+      },
+      {
+        "code": "879",
+        "name": "Cardamom Rose Body Ritual + Full Body Scrub",
+        "duration": 135,
+        "localPrice": 24400,
+        "foreignPrice": 28400,
+        "benefits": ["Extended experience with scrub"]
+      }
+    ],
+    "royalKandyanRituals": [
+      {
+        "code": "932",
+        "name": "Kandyan Body Ritual",
+        "duration": 90,
+        "localPrice": 15800,
+        "foreignPrice": 19800,
+        "benefits": ["Royal Kandyan Massage", "Mineral crystal therapy"]
+      },
+      {
+        "code": "930",
+        "name": "Royal Body Ritual",
+        "duration": 120,
+        "localPrice": 19700,
+        "foreignPrice": 23700,
+        "benefits": ["Herbal foot bath", "Back rub", "Extended massage"]
+      },
+      {
+        "code": "965",
+        "name": "Royal Body Ritual + Full Body Scrub",
+        "duration": 135,
+        "localPrice": 22800,
+        "foreignPrice": 26800,
+        "benefits": ["Full scrub included"]
+      },
+      {
+        "code": "929",
+        "name": "Royal Foot Ritual",
+        "duration": 120,
+        "localPrice": 8700,
+        "foreignPrice": 12700,
+        "benefits": ["30 min head/neck/shoulder massage included"]
+      }
+    ],
+    "radiantGlowRituals": [
+      {
+        "code": "853",
+        "name": "Stage I - Glow Body Polish Ritual",
+        "duration": 90,
+        "localPrice": 14300,
+        "foreignPrice": 18300,
+        "purpose": "Purifies & primes skin"
+      },
+      {
+        "code": "817",
+        "name": "Stage II - Glow Booster (Full Body)",
+        "duration": 90,
+        "localPrice": 15800,
+        "foreignPrice": 19800,
+        "purpose": "Accelerates skin renewal"
+      },
+      {
+        "code": "818",
+        "name": "Stage II - Glow Booster (Full Hands)",
+        "duration": 45,
+        "localPrice": 8800,
+        "foreignPrice": 11800,
+        "purpose": "Hands only"
+      },
+      {
+        "code": "819",
+        "name": "Stage II - Glow Booster (Full Legs)",
+        "duration": 60,
+        "localPrice": 10300,
+        "foreignPrice": 13300,
+        "purpose": "Legs only"
+      }
+    ],
+    "intenseSpotTreatments": [
+      {
+        "code": "820",
+        "area": "Elbows",
+        "duration": 45,
+        "price": 7300
+      },
+      {
+        "code": "821",
+        "area": "Under-arms",
+        "duration": 45,
+        "price": 8800
+      },
+      {
+        "code": "822",
+        "area": "Knees",
+        "duration": 45,
+        "price": 8800
+      },
+      {
+        "code": "823",
+        "area": "Neck",
+        "duration": 90,
+        "price": 10300
+      }
+    ],
+    "glowFacialRituals": [
+      {
+        "code": "813",
+        "name": "Stage I - Ultra Glow Facial",
+        "duration": 120,
+        "price": 17900,
+        "purpose": "8-step ritual, Floral Micro-Peeling",
+        "restrictions": "Not available at Negombo, Galle, Weligama & Dutch Square"
+      },
+      {
+        "code": "814",
+        "name": "Stage II - Glow Accelerator Facial",
+        "duration": 90,
+        "price": 15500,
+        "purpose": "Precision Silk Peeling, sunburn reduction",
+        "restrictions": "Not available at Negombo, Galle, Weligama & Dutch Square"
+      },
+      {
+        "code": "815",
+        "name": "Stage III - Glowlift Facial",
+        "duration": 120,
+        "price": 17900,
+        "purpose": "Floral Peel, Thermal Glow Mineral Masque",
+        "restrictions": "Not available at Negombo, Galle, Weligama & Dutch Square"
+      },
+      {
+        "code": "848",
+        "name": "Stage IV - Glow Renewal Facial Peel",
+        "duration": 120,
+        "price": 21500,
+        "purpose": "Precision Hydro Therapy",
+        "restrictions": "Not available at Negombo, Galle, Weligama & Dutch Square"
+      }
+    ],
+    "soothingFacialRituals": [
+      {
+        "code": "840",
+        "name": "Crystal Facial Ritual",
+        "duration": 60,
+        "price": 13200,
+        "features": ["8-step", "Meridian point massage", "Mineral crystals"],
+        "restrictions": "Not available at Negombo, Galle, Weligama & Dutch Square"
+      },
+      {
+        "code": "841",
+        "name": "Crystal Facial Ritual (Extended)",
+        "duration": 90,
+        "price": 15800,
+        "features": ["Extended version"],
+        "restrictions": "Not available at Negombo, Galle, Weligama & Dutch Square"
+      },
+      {
+        "code": "855",
+        "name": "Rose Quartz - Soothing Facial",
+        "duration": 90,
+        "price": 15700,
+        "features": ["Rose Quartz therapy", "Chakra massage"],
+        "restrictions": "Not available at Negombo, Galle, Weligama & Dutch Square"
+      },
+      {
+        "code": "842",
+        "name": "Purifying Facial Ritual",
+        "duration": 45,
+        "price": 8000,
+        "features": ["Quick refresh", "Jet lag relief"],
+        "restrictions": "Not available at Negombo, Galle, Weligama & Dutch Square"
+      },
+      {
+        "code": "972",
+        "name": "Neem & Tea Tree - Anti-Acne Facial",
+        "duration": 60,
+        "price": 13200,
+        "features": ["Acne-prone skin", "Pore clearing"],
+        "restrictions": "Not available at Negombo, Galle, Weligama & Dutch Square"
+      },
+      {
+        "code": "973",
+        "name": "White Rice - Age Defence Lifting Facial",
+        "duration": 120,
+        "price": 17900,
+        "features": ["Anti-ageing", "Rice Bran massage"],
+        "restrictions": "Not available at Negombo, Galle, Weligama & Dutch Square"
+      },
+      {
+        "code": "974",
+        "name": "Frankincense - Skin Energising (MEN)",
+        "duration": 60,
+        "price": 13100,
+        "features": ["For men", "Razor burn relief"],
+        "restrictions": "Not available at Negombo, Galle, Weligama & Dutch Square"
+      },
+      {
+        "code": "975",
+        "name": "Virgin Coconut Deep Hydrating Facial",
+        "duration": 60,
+        "price": 13300,
+        "features": ["Deep hydration", "Anti-oxidants"],
+        "restrictions": "Not available at Negombo, Galle, Weligama & Dutch Square"
+      },
+      {
+        "code": "900",
+        "name": "Moringa Herb - Exfoliating Facial",
+        "duration": 90,
+        "price": 15500,
+        "features": ["Blackhead removal", "Oil control"],
+        "restrictions": "Not available at Negombo, Galle, Weligama & Dutch Square"
+      },
+      {
+        "code": "995",
+        "name": "Sal & Saffron - Ultra-Hydrating Plumping",
+        "duration": 120,
+        "price": 21500,
+        "features": ["4D hyaluronic acid", "Light Therapy Masque"],
+        "restrictions": "Not available at Negombo, Galle, Weligama & Dutch Square"
+      },
+      {
+        "code": "996",
+        "name": "Bakuchiol - Age Defence Plumping",
+        "duration": 120,
+        "price": 21500,
+        "features": ["Radio frequency therapy", "Lymphatic drainage"],
+        "restrictions": "Not available at Negombo, Galle, Weligama & Dutch Square"
+      },
+      {
+        "code": "884",
+        "name": "Glow Booster Facial Ritual",
+        "duration": 60,
+        "price": 13100,
+        "features": ["Quick 60-min glow treatment"],
+        "restrictions": "Not available at Negombo, Galle, Weligama & Dutch Square"
+      }
+    ],
+    "pedicureManicureRituals": [
+      {
+        "code": "917",
+        "name": "Ultimate Pedicure Ritual",
+        "duration": 120,
+        "price": 8700
+      },
+      {
+        "code": "912",
+        "name": "Luxury Pedicure Ritual",
+        "duration": 90,
+        "price": 6800
+      },
+      {
+        "code": "938",
+        "name": "Luxury Manicure Ritual",
+        "duration": 60,
+        "price": 6800
+      },
+      {
+        "code": "971",
+        "name": "Nail Polish Application (Add-on)",
+        "price": 1000
+      },
+      {
+        "code": "864",
+        "name": "French Polish Application",
+        "price": 1800
+      }
+    ],
+    "addOnFootSpa": [
+      {
+        "code": "943",
+        "name": "Hot Oil Scalp Massage",
+        "duration": 30,
+        "price": 4100
+      },
+      {
+        "code": "950",
+        "name": "Hand Scrub",
+        "duration": 15,
+        "price": 2600
+      },
+      {
+        "code": "954",
+        "name": "Hand Mask",
+        "duration": 15,
+        "price": 2600
+      },
+      {
+        "code": "951",
+        "name": "Foot Scrub",
+        "duration": 15,
+        "price": 2600
+      },
+      {
+        "code": "955",
+        "name": "Foot Mask",
+        "duration": 15,
+        "price": 2600
+      },
+      {
+        "code": "952",
+        "name": "Hand Scrub & Mask",
+        "duration": 30,
+        "price": 3300
+      },
+      {
+        "code": "953",
+        "name": "Foot Scrub & Mask",
+        "duration": 30,
+        "price": 3300
+      },
+      {
+        "code": "968",
+        "name": "Foot Steaming",
+        "duration": 20,
+        "price": 1800
+      },
+      {
+        "code": "801",
+        "name": "Hot Herbal Compress",
+        "duration": 10,
+        "price": 2000
+      },
+      {
+        "code": "802",
+        "name": "Spa Ceylon Foot Massage",
+        "price": 4000
+      }
+    ],
+    "addOnBodyRituals": [
+      {
+        "code": "940",
+        "name": "Body Scrub",
+        "duration": 30,
+        "price": 5600
+      },
+      {
+        "code": "942",
+        "name": "Cool Protein Hair Mask",
+        "duration": 30,
+        "price": 4100
+      },
+      {
+        "code": "944",
+        "name": "Lie-Down Foot Massage",
+        "duration": 30,
+        "price": 4100
+      },
+      {
+        "code": "947",
+        "name": "Kandyan Back Massage",
+        "duration": 30,
+        "price": 4100
+      },
+      {
+        "code": "946",
+        "name": "Deep Tissue Back Massage",
+        "duration": 30,
+        "price": 4900
+      },
+      {
+        "code": "849",
+        "name": "Hot Herbal Compress",
+        "duration": 15,
+        "price": 2500
+      },
+      {
+        "code": "941",
+        "name": "Crystal Body Polish",
+        "duration": 30,
+        "price": 5600
+      },
+      {
+        "code": "851",
+        "name": "Facial Massage",
+        "duration": 20,
+        "price": 4900
+      },
+      {
+        "code": "852",
+        "name": "Floral Bath",
+        "duration": 30,
+        "price": 9600,
+        "restrictions": "Royal & Dutch Square Spas only"
+      },
+      {
+        "code": "869",
+        "name": "Bio-Cellulose Facial Masque",
+        "price": 2600
+      },
+      {
+        "code": "948",
+        "name": "Ayur-Pressure Back Massage",
+        "duration": 30,
+        "price": 4900
+      }
+    ],
+    "threadingRituals": [
+      {
+        "code": "828",
+        "area": "Full Face",
+        "price": 4300
+      },
+      {
+        "code": "829",
+        "area": "Upper Lip",
+        "price": 1000
+      },
+      {
+        "code": "830",
+        "area": "Chin",
+        "price": 1100
+      },
+      {
+        "code": "831",
+        "area": "Eyebrows",
+        "price": 1200
+      },
+      {
+        "code": "833",
+        "area": "Forehead",
+        "price": 1000
+      },
+      {
+        "code": "832",
+        "area": "Face Sides",
+        "price": 1800
+      }
+    ],
+    "waxingRituals": [
+      {
+        "code": "834",
+        "area": "Full Body",
+        "price": 15100
+      },
+      {
+        "code": "835",
+        "area": "Full Hands & Arms",
+        "price": 4900
+      },
+      {
+        "code": "836",
+        "area": "Full Legs",
+        "price": 5600
+      },
+      {
+        "code": "989",
+        "area": "Full Face",
+        "price": 6000
+      },
+      {
+        "code": "881",
+        "area": "Chin",
+        "price": 1200
+      },
+      {
+        "code": "883",
+        "area": "Face Sides",
+        "price": 3000
+      },
+      {
+        "code": "837",
+        "area": "Stomach",
+        "price": 4100
+      },
+      {
+        "code": "839",
+        "area": "Back",
+        "price": 4100
+      },
+      {
+        "code": "838",
+        "area": "Under-arms",
+        "price": 2600
+      },
+      {
+        "code": "880",
+        "area": "Upper Lip",
+        "price": 1200
+      },
+      {
+        "code": "882",
+        "area": "Forehead",
+        "price": 1500
+      }
+    ],
+    "bridalPackages": [
+      {
+        "name": "Radiance Boost Ritual",
+        "description": "A gentle, indulgent glow-up for any special occasion",
+        "treatments": [
+          {
+            "name": "Ultra Glow Facial Ritual",
+            "duration": 120,
+            "price": 17900
+          },
+          {
+            "name": "Body Polish Skin Renewal Ritual",
+            "duration": 60,
+            "price": 12700
+          },
+          {
+            "name": "Ultimate Pedicure",
+            "duration": 120,
+            "price": 8700
+          }
+        ],
+        "totalPrice": 39300,
+        "introductoryPrice": 36000,
+        "includes": "Complimentary Gift Set",
+        "restrictions": "Not available at Galle, Negombo & Weligama"
+      },
+      {
+        "name": "Blissful Radiance Ritual",
+        "description": "Glow-enhancing treatments for body, mind, & soul",
+        "treatments": [
+          {
+            "name": "Glow Accelerator Facial Treatment Ritual",
+            "duration": 90,
+            "price": 15500
+          },
+          {
+            "name": "Glow Body Polish Ritual",
+            "duration": 90,
+            "price": 14300
+          },
+          {
+            "name": "Ultimate Body Ritual (Foreign Therapist)",
+            "duration": 90,
+            "price": 18300
+          },
+          {
+            "name": "Express Pedicure",
+            "duration": 45,
+            "price": 6300
+          }
+        ],
+        "totalPrice": 54400,
+        "introductoryPrice": 47000,
+        "includes": "Complimentary Gift Set",
+        "restrictions": "Not available at Galle, Negombo & Weligama"
+      },
+      {
+        "name": "Celestial Glow Ritual",
+        "description": "An elevated ritual of transformation and renewal",
+        "treatments": [
+          {
+            "name": "Glow Renewal Facial Peel",
+            "duration": 120,
+            "price": 21500
+          },
+          {
+            "name": "Glow Body Polish Ritual (Foreign Therapist)",
+            "duration": 90,
+            "price": 18300
+          },
+          {
+            "name": "Luxury Body Ritual (Foreign Therapist)",
+            "duration": 60,
+            "price": 17000
+          },
+          {
+            "name": "Full Body Waxing",
+            "price": 15100
+          }
+        ],
+        "totalPrice": 71900,
+        "introductoryPrice": 60000,
+        "includes": "Complimentary Gift Set",
+        "restrictions": "Not available at Galle, Negombo & Weligama"
+      },
+      {
+        "name": "The Royal Glow Ritual",
+        "description": "The Ultimate Spa Ceylon indulgence – radiant, refined, and regal",
+        "treatments": [
+          {
+            "name": "Glow Renewal Facial Peel",
+            "duration": 120,
+            "price": 21500
+          },
+          {
+            "name": "Cardamom Rose Body Ritual + Full Body Scrub (Foreign Therapist)",
+            "duration": 135,
+            "price": 28400
+          },
+          {
+            "name": "Full body waxing",
+            "price": 15100
+          },
+          {
+            "name": "Luxury Pedicure ritual",
+            "duration": 90,
+            "price": 6800
+          },
+          {
+            "name": "Deep Calming Shiro ritual",
+            "price": 11800
+          }
+        ],
+        "totalPrice": 83600,
+        "introductoryPrice": 71000,
+        "includes": "Complimentary Gift Set",
+        "restrictions": "Not available at Galle, Negombo & Weligama"
+      }
+    ]
+  },
+  "pricingNotes": {
+    "currency": "Sri Lankan Rupees (LKR)",
+    "includes": "10% service charge & applicable govt. taxes",
+    "localTherapist": "Standard pricing",
+    "foreignTherapist": "Premium pricing (not available at Dehiwala)"
+  },
+  "locationRestrictions": {
+    "shirodharaStressRelief": "Only at Royal Spa, WHITE SPA & Dutch Square",
+    "deepCalmingShiro": "Bambalapitiya, Kotte, Pelawatte, Nawala, Ward Place, Horton Place & Dehiwala",
+    "facialRituals": "Not available at Negombo, Galle, Weligama & Dutch Square",
+    "bridalPackages": "Not available at Galle, Negombo & Weligama",
+    "foreignTherapist": "Not available at Dehiwala",
+    "floralBath": "Royal & Dutch Square Spas only"
+  }
+}

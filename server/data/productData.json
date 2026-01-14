@@ -1,0 +1,186 @@
+{
+  "categories": {
+    "skinWellness": {
+      "ranges": [
+        "Bakuchiol",
+        "Frankincense",
+        "Lotus & Rambutan",
+        "Neem & Tea Tree",
+        "Sal & Saffron",
+        "MoringaHerb",
+        "Ashwagandha",
+        "Citrus Glow",
+        "Tamarind",
+        "True Turmeric",
+        "Virgin Coconut",
+        "White Jasmine",
+        "White Rice",
+        "White Mint"
+      ],
+      "subcategories": [
+        "Face Wash/Cleansers",
+        "Day/Night Serums",
+        "Facial Masques",
+        "Eye Care",
+        "BB Creams",
+        "Lip Care (Balms, Scrubs, Tinted)",
+        "Men's Skincare"
+      ],
+      "skinTypes": [
+        "Acne Prone",
+        "Combination",
+        "Dry",
+        "Mature",
+        "Normal",
+        "Oily",
+        "Sensitive"
+      ]
+    },
+    "mindBody": {
+      "ranges": [
+        "De-Stress",
+        "Peace",
+        "Sleep",
+        "Sleep Intense",
+        "Sensual Sandalwood",
+        "Neroli Jasmine",
+        "Cardamom Rose",
+        "Virgin Coconut",
+        "ForestVeda",
+        "SeaVeda",
+        "Green Mint",
+        "Frankincense Kay Lime"
+      ],
+      "subcategories": [
+        "Bath & Body Oils",
+        "Body Scrubs",
+        "Luxury Soaps",
+        "Shower Gels",
+        "Body Lotions",
+        "Natural Butters",
+        "Wellness Balms & Inhalers",
+        "Foot Care",
+        "Hand Care",
+        "Herbal Teas",
+        "Baby Care products"
+      ]
+    },
+    "hairWellness": {
+      "ranges": [
+        "Kesharaja",
+        "Virgin Coconut",
+        "Neroli Jasmine",
+        "Margosa Mint",
+        "Aloe Vera Watergrass",
+        "Sandalwood Vetiver",
+        "Forest Trail (Men)"
+      ],
+      "subcategories": [
+        "Cleansers",
+        "Conditioners",
+        "Treatment Oils",
+        "Hair Masques",
+        "Hair Serums"
+      ],
+      "concerns": [
+        "Thin/Weak/Falling Hair",
+        "Dry/Unruly",
+        "Damaged/Colored",
+        "Dandruff/Problem Scalp"
+      ]
+    },
+    "homeAroma": {
+      "ranges": [
+        "Jewel Fruits",
+        "Cardamom Rose",
+        "Neroli Jasmine",
+        "Ylang Lavender",
+        "Forest Trail",
+        "Frankincense",
+        "Pink Grapefruit",
+        "Ceylon Elephant",
+        "Lemongrass Mandarin",
+        "Spiced Sandalwood",
+        "Royal Lotus",
+        "Vanilla Rose"
+      ],
+      "subcategories": [
+        "Natural Candles",
+        "Room Aromizers/Diffusers",
+        "Essential Oils",
+        "Incense Sticks",
+        "Room Aroma Mists",
+        "Car Wellness Pods",
+        "Aroma Sachets"
+      ]
+    },
+    "fragrances": {
+      "forHer": [
+        "Body Sprays (Beach & Floral collections)",
+        "Eau De Perfumes",
+        "Eau De Ceylon Colognes",
+        "Roll-Ons",
+        "Creme Perfumes",
+        "Deodorants",
+        "Perfumed Body Lotions & Shower Gels"
+      ],
+      "forHim": [
+        "Body Sprays",
+        "Eau De Perfumes",
+        "Eau De Perfume Colognes",
+        "Deodorants"
+      ]
+    },
+    "palaceware": {
+      "homeLifestyle": [
+        "Bar & Entertaining",
+        "Bed & Bath",
+        "Living & Dining",
+        "Tea & Pantry"
+      ],
+      "homeDecor": [
+        "Porcelain & Stoneware",
+        "Textile",
+        "Lacquerware",
+        "Glass & Bamboo"
+      ],
+      "items": [
+        "Bamboo Mugs",
+        "Cushion Covers",
+        "Glassware",
+        "Napkins",
+        "Notebooks",
+        "Place Mats",
+        "Plates",
+        "Towels",
+        "Trays",
+        "Wellness Bags"
+      ]
+    },
+    "gifting": {
+      "giftCards": [
+        "Spa Rituals",
+        "E-Gift Cards",
+        "Gift Vouchers"
+      ],
+      "collections": [
+        "Discovery Sets",
+        "Home Spa Sets",
+        "Wellness Trios",
+        "Essential Sets"
+      ],
+      "byPrice": [
+        "Under 5K",
+        "Under 10K",
+        "Under 20K"
+      ],
+      "limitedEditions": [
+        "Orchid Paradise",
+        "Ceylon Elephant Collection",
+        "Undersea Paradise"
+      ]
+    }
+  },
+  "totalProducts": 450,
+  "note": "This is a reference structure. Full product catalog with individual product details can be expanded as needed."
+}

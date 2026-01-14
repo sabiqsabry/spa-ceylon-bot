@@ -1,0 +1,1076 @@
+{
+  "spa_menu": {
+    "last_updated": "January 2026",
+    "currency": "LKR",
+    "notes": {
+      "pricing": "All rates are inclusive of 10% service charge & applicable govt. taxes",
+      "therapist_types": "Local Therapist and Foreign Therapist options available (Foreign Therapist not available at Dehiwala)",
+      "back_massage_note": "All rituals that include back massages will be limited to the upper back area only and will only be done over the clothing"
+    },
+    "categories": {
+      "ceylonese_body_rituals": {
+        "description": "Traditional relaxing therapies inspired by ancient Ceylon",
+        "rituals": [
+          {
+            "code": "907",
+            "name": "Hot Sand Massage Ritual",
+            "duration_minutes": 90,
+            "description": "Inspired by traditional relaxing therapies, the SPA CEYLON Hot Sand Massage Ritual incorporates a combination of herb-infused sand compresses, herbal steam inhalation & soothing massage techniques - to treat sever back & join pains, comfort travel weariness (jet lag) & promote internal balance of body, mind & soul.",
+            "pricing": {
+              "local_therapist": 14300,
+              "foreign_therapist": 18300
+            },
+            "benefits": ["Back & joint pain relief", "Jet lag relief", "Internal balance"]
+          },
+          {
+            "code": "906",
+            "name": "Ultimate Body Ritual",
+            "duration_minutes": 90,
+            "description": "A pampering experience with massage balms & hot herbal compress to soothe, calm & de-stress. Our unique SPA CEYLON treatment technique combines proven rejuvenating massage therapies for total wellbeing. Helps comfort joint aches, muscle pains & sports injuries.",
+            "pricing": {
+              "local_therapist": 14300,
+              "foreign_therapist": 18300
+            },
+            "benefits": ["Joint aches relief", "Muscle pain relief", "Sports injuries recovery"]
+          },
+          {
+            "code": "923",
+            "name": "Deep Tissue Massage Ritual",
+            "duration_minutes": 90,
+            "description": "A total relaxation ritual with aromatic massage oils to treat, comfort & relieve back & shoulder stiffness, sports injuries, travel fatigue & overall body pains. Our deep penetrating SPA CEYLON Deep Tissue Massage technique effectively calms & totally de-stresses body & mind, promoting overall comfort, wellbeing & rejuvenation.",
+            "pricing": {
+              "local_therapist": 15800,
+              "foreign_therapist": 19800
+            },
+            "benefits": ["Back & shoulder stiffness relief", "Sports injuries", "Travel fatigue relief"]
+          },
+          {
+            "code": "916",
+            "name": "Back Pain Relief Ritual",
+            "duration_minutes": 60,
+            "description": "A soothing ritual with specialised massage strokes, massage balms, back pain relievers & hot herbal compress to treat, comfort & relieve lower back & shoulder pain. Gently calms & de-stresses body & mind, effectively relieving back pain & discomfort.",
+            "pricing": {
+              "local_therapist": 12700,
+              "foreign_therapist": 16700
+            },
+            "benefits": ["Lower back pain relief", "Shoulder pain relief"]
+          },
+          {
+            "code": "803",
+            "name": "SeaVeda Uplifting Marine Body Ritual",
+            "duration_minutes": 90,
+            "description": "An immersive journey inspired by the soothing seafronts of Ceylon. This revitalising ritual combines the healing essence of the ocean with ancient Ayurvedic touch to restore balance & wellbeing. Warm herbal compresses & flowing massage movements help release fatigue, ease muscle tension & calm the mind. The experience concludes with a refreshing marine mist, leaving you uplifted, renewed & serenely reconnected to the rhythm of the sea.",
+            "pricing": {
+              "local_therapist": 15700,
+              "foreign_therapist": 19700
+            },
+            "benefits": ["Fatigue release", "Muscle tension relief", "Mental calm", "Ocean-inspired renewal"]
+          }
+        ]
+      },
+      "calming_rituals": {
+        "description": "Sleep-focused and calming treatments",
+        "rituals": [
+          {
+            "code": "920",
+            "name": "Sleep Therapy Calming Body Ritual",
+            "duration_minutes": 90,
+            "description": "A total calming experience with aromatic 'Sleep' massage balms & hot herbal compress to soothe & de-stress your body & mind, promoting deep restful sleep. Our unique SPA CEYLON treatment technique combines proven rejuvenating massage therapies for total relaxation & wellbeing.",
+            "pricing": {
+              "local_therapist": 15800,
+              "foreign_therapist": 19800
+            },
+            "benefits": ["Deep restful sleep", "Stress relief", "Total relaxation"]
+          },
+          {
+            "code": "921",
+            "name": "Sleep Therapy Calming Scalp Ritual",
+            "duration_minutes": 60,
+            "description": "A therapeutic head massage with 'Sleep' oils & balms, focusing on specific sleep inducing chakra points of the head, neck, forehead & shoulders to help totally relax your body & mind, giving you a good night of deep restful sleep.",
+            "pricing": {
+              "local_therapist": 7600,
+              "foreign_therapist": 10600
+            },
+            "benefits": ["Sleep induction", "Head & neck relaxation"],
+            "notes": "Foreign Therapist option not available at Dehiwala"
+          },
+          {
+            "code": "804",
+            "name": "ForestVeda Calming Body Ritual",
+            "duration_minutes": 90,
+            "description": "An immersive journey inspired by the tranquil rainforests of Ceylon. This deeply soothing ritual combines the healing power of forest energy with ancient Ayurvedic massage to calm the mind & restore inner balance. Warm herbal compresses & slow, rhythmic movements help release tension, quiet the senses & prepare the body for deep, restful sleep. The experience concludes with a gentle misting of forest essence, leaving you comforted, relaxed & cocooned in serenity.",
+            "pricing": {
+              "local_therapist": 15700,
+              "foreign_therapist": 19700
+            },
+            "benefits": ["Inner balance", "Tension release", "Sleep preparation", "Forest-inspired serenity"]
+          }
+        ]
+      },
+      "calming_destress_rituals": {
+        "description": "Stress relief and de-stress focused treatments",
+        "rituals": [
+          {
+            "code": "933",
+            "name": "Shirodhara Stress Relief Ritual",
+            "duration_minutes": 90,
+            "description": "A centuries old Ceylonese traditional Ayurveda 'Dhara' therapy focusing on the powerful 'third eye' of the mind - to effectively purify & rejuvenate the body, mind & soul. The continuous oil stream cools, calms, balances & clarifies the mind, stimulating the nervous system & relieving migraine, headache & insomnia. Includes a traditional full body massage to soothe & comfort the entire body system.",
+            "pricing": {
+              "local_therapist": 15100,
+              "foreign_therapist": 19100
+            },
+            "benefits": ["Third eye activation", "Migraine relief", "Headache relief", "Insomnia relief", "Nervous system stimulation"],
+            "availability": "Available only at Royal Spa, WHITE SPA & Dutch Square"
+          },
+          {
+            "code": "885",
+            "name": "Deep Calming & De-stress Hydro Therapy Shiro Ritual - Short Hair",
+            "duration_minutes": 60,
+            "description": "Immerse yourself in a deeply soothing experience, where every touch, every aroma & every moment is designed to melt away stress & tension. Warm, herb-infused balms cascade your forehead, quieting your thoughts & activating the 'Third Eye'. Therapeutic steam envelops your scalp, while SPA CEYLON's expert therapists work away tension with their signature massage techniques, easing tightness from your head, neck & shoulders. Each movement guides your senses into a state of profound calm. The treatment also purifies & nourishes your scalp & hair, restoring natural balance & promoting healthier hair growth. The holistic wellness effect leaves you feeling tranquil, deeply relaxed & ready for dreamy, restful sleep.",
+            "pricing": {
+              "standard": 9500
+            },
+            "availability": "Available only at Bambalapitiya, Kotte, Pelawatte, Nawala, Ward Place, Horton Place & Dehiwala Spas"
+          },
+          {
+            "code": "886",
+            "name": "Deep Calming & De-stress Hydro Therapy Shiro Ritual - Mid Length Hair",
+            "duration_minutes": 60,
+            "pricing": {
+              "standard": 10600
+            },
+            "availability": "Available only at Bambalapitiya, Kotte, Pelawatte, Nawala, Ward Place, Horton Place & Dehiwala Spas"
+          },
+          {
+            "code": "887",
+            "name": "Deep Calming & De-stress Hydro Therapy Shiro Ritual - Long Hair",
+            "duration_minutes": 60,
+            "pricing": {
+              "standard": 11800
+            },
+            "availability": "Available only at Bambalapitiya, Kotte, Pelawatte, Nawala, Ward Place, Horton Place & Dehiwala Spas"
+          },
+          {
+            "code": "945",
+            "name": "Deep Calming & De-stress Hydro Therapy Shiro Ritual - Short Hair with Scalp Scrub",
+            "duration_minutes": 60,
+            "pricing": {
+              "standard": 10600
+            }
+          },
+          {
+            "code": "949",
+            "name": "Deep Calming & De-stress Hydro Therapy Shiro Ritual - Mid Length Hair with Scalp Scrub",
+            "duration_minutes": 60,
+            "pricing": {
+              "standard": 11800
+            }
+          },
+          {
+            "code": "988",
+            "name": "Deep Calming & De-stress Hydro Therapy Shiro Ritual - Long Hair with Scalp Scrub",
+            "duration_minutes": 60,
+            "pricing": {
+              "standard": 13000
+            }
+          }
+        ]
+      },
+      "ceylonese_foot_rituals": {
+        "description": "Foot-focused relaxation and reflexology treatments",
+        "notes": "Foreign Therapist option not available at Dehiwala",
+        "rituals": [
+          {
+            "code": "901",
+            "name": "Ultimate Foot Ritual",
+            "duration_minutes": 90,
+            "description": "A relaxing herbal foot bath followed by a rejuvenating acupressure massage to soothe tired feet. Our foot reflexology technique helps de-stress entire body, promoting inner healing & total harmony. Cools, refreshes & revitalises your mind & body. Includes head, neck & shoulder massage.",
+            "pricing": {
+              "local_therapist": 7600,
+              "foreign_therapist": 11600
+            },
+            "benefits": ["Foot relaxation", "Reflexology", "Head/neck/shoulder massage included"]
+          },
+          {
+            "code": "902",
+            "name": "Luxury Foot Ritual",
+            "duration_minutes": 60,
+            "description": "A rejuvenating acupressure massage to soothe tired feet. Our foot reflexology technique helps de-stress entire body, promoting inner healing & total harmony. Cools, refreshes & revitalises your mind & body.",
+            "pricing": {
+              "local_therapist": 6800,
+              "foreign_therapist": 9800
+            },
+            "benefits": ["Foot relaxation", "Reflexology", "Inner healing"]
+          },
+          {
+            "code": "903",
+            "name": "Foot Rescue Ritual",
+            "duration_minutes": 90,
+            "description": "A specialised acupressure massage with hot herbal compress therapy to comfort severe foot pain, foot fatigue & specific problem areas. Our foot reflexology technique helps de-stress entire body, promoting inner healing & total harmony. Includes foot bath, head, neck & shoulder massage.",
+            "pricing": {
+              "local_therapist": 8700,
+              "foreign_therapist": 12700
+            },
+            "benefits": ["Severe foot pain relief", "Foot fatigue relief", "Problem area treatment"]
+          },
+          {
+            "code": "919",
+            "name": "Sleep Therapy Calming Foot Ritual",
+            "duration_minutes": 90,
+            "description": "A relaxing herbal foot bath with calming aromatic herbs, followed by a rejuvenating acupressure foot massage with our 'Sleep' formulae focusing on specific 'marma' points that help promote soothing relaxation and deep restful sleep. Calms & eases your mind & body. Includes a special head, neck & shoulder massage to promote sleep.",
+            "pricing": {
+              "local_therapist": 8700,
+              "foreign_therapist": 12800
+            },
+            "benefits": ["Sleep promotion", "Marma point therapy", "Calming relaxation"]
+          }
+        ]
+      },
+      "head_neck_back_shoulder_rituals": {
+        "description": "Upper body focused treatments",
+        "notes": "Foreign Therapist option not available at Dehiwala",
+        "rituals": [
+          {
+            "code": "904",
+            "name": "Head, Neck & Shoulder Ritual",
+            "duration_minutes": 60,
+            "description": "A unique fast acting de-stress treatment using specialised acupressure massage techniques to relieve muscle tension & relax your scalp, back, neck & shoulders. Includes rejuvenating hand massage. Soothes & calms your body & mind.",
+            "pricing": {
+              "local_therapist": 6800,
+              "foreign_therapist": 9800
+            },
+            "benefits": ["Muscle tension relief", "Hand massage included"]
+          },
+          {
+            "code": "905",
+            "name": "Sinus Relief Ritual",
+            "duration_minutes": 45,
+            "description": "A specific treatment designed to calm sinus related discomfort. Our unique acupressure massage technique focuses on pressure point on head, forehead, face & neck to soothe, comfort & relieve. The ritual clears sinuses, improves internal balance & promotes clarity.",
+            "pricing": {
+              "local_therapist": 6800,
+              "foreign_therapist": 9800
+            },
+            "benefits": ["Sinus relief", "Clarity", "Internal balance"]
+          },
+          {
+            "code": "909",
+            "name": "Stress Relief Ritual",
+            "duration_minutes": 60,
+            "description": "A relaxing head & neck massage focused on 'third eye' chakra points of the forehead to soothe, comfort & calm, headache, migraine & stress related discomfort. Promotes peace, tranquillity & relaxation.",
+            "pricing": {
+              "local_therapist": 6800,
+              "foreign_therapist": 9800
+            },
+            "benefits": ["Headache relief", "Migraine relief", "Stress relief", "Third eye focus"]
+          },
+          {
+            "code": "911",
+            "name": "Scalp Massage Ritual",
+            "duration_minutes": 60,
+            "description": "A therapeutic lie-down head massage with Aromaveda oils & balms, focusing on chakra points of the head, neck, forehead & shoulders to soothe, comfort & calm, body, mind & soul. Promotes total relaxation & deep restful sleep.",
+            "pricing": {
+              "local_therapist": 6800,
+              "foreign_therapist": 9800
+            },
+            "benefits": ["Chakra point focus", "Total relaxation", "Sleep promotion"]
+          }
+        ]
+      },
+      "ceylonese_purifying_rituals": {
+        "description": "Detox and skin purifying treatments",
+        "rituals": [
+          {
+            "code": "936",
+            "name": "Body Polish Skin Renewal Ritual",
+            "duration_minutes": 60,
+            "description": "An intensive skin renewal ritual to soothe & refresh the body & mind. The ritual starts with invigorating body polish blended with ocean salts, natural sugars & pure essential oils to naturally exfoliate, hydrate & restore skin balance. The creamy yoghurt body scrub that follows is blended with precious Ayurveda herbs to soften & smoothen skin. The deep-pore action helps improve overall skin health & increase skin radiance.",
+            "pricing": {
+              "local_therapist": 12700,
+              "foreign_therapist": 15700
+            },
+            "benefits": ["Skin renewal", "Exfoliation", "Hydration", "Radiance"]
+          },
+          {
+            "code": "959",
+            "name": "Detox & Purify - Warming Mineral Body Wrap",
+            "duration_minutes": 90,
+            "description": "A deep-action purifying ritual combining natural clays infused with powerful herbs & warming essential oils. The naturally heating wrap deep cleanses body, drawing harmful toxins to skin surface, soothing & purifying the entire body system, improving overall health. Includes a 15 minute chakra balancing scalp massage & concludes with a soothing aromatic body mist.",
+            "pricing": {
+              "local_therapist": 16600,
+              "foreign_therapist": 20600
+            },
+            "benefits": ["Detoxification", "Toxin removal", "Chakra balancing", "Deep cleansing"]
+          },
+          {
+            "code": "850",
+            "name": "Detox Purifying Body Ritual",
+            "duration_minutes": 120,
+            "description": "An intense purifying ritual which begins with dry brushing to improve blood circulation and lymphatic drainage, followed by a coffee body polish blended with detoxing Ayurveda herbs, minerals & essential oils to purify and draw out toxins from the skin. The pampering experience is completed with a 60 minute body massage using a traditional Ayurveda formula that assists to draw out deep seated impurities of the entire body system.",
+            "pricing": {
+              "local_therapist": 22000,
+              "foreign_therapist": 26000
+            },
+            "benefits": ["Lymphatic drainage", "Blood circulation", "Deep detox", "Coffee body polish"]
+          },
+          {
+            "code": "935",
+            "name": "After-Sun Skin Rescue Ritual",
+            "duration_minutes": 60,
+            "description": "A complete cooling & calming ritual for a perfect ending to a long day in the Sri Lankan sun. The application of a series of soothing body pacs enriched with freshly cut Organic Aloe Vera & precious Ayurveda herbs helps heal sun-burnt skin, controlling inflammations & minimising discomfort. Includes a relaxing scalp massage, followed by a soothing fresh Aloe hair mask to condition sun damaged hair.",
+            "pricing": {
+              "local_therapist": 12700,
+              "foreign_therapist": 15700
+            },
+            "benefits": ["Sun damage repair", "Cooling", "Inflammation control", "Hair conditioning"]
+          }
+        ]
+      },
+      "cardamom_rose_body_rituals": {
+        "description": "Luxurious Cardamom Rose collection treatments",
+        "rituals": [
+          {
+            "code": "874",
+            "name": "Cardamom Rose Body Ritual",
+            "duration_minutes": 120,
+            "description": "A luxurious full body pampering experience with Himalayan Rose to soothe, calm & help take away daily stress & relax the senses, while luxuriously fragrant Organic Ceylon Cardamom warms, uplifts & clarifies the mind & body. The synergistic action promotes joyous natural wellbeing. The ritual includes therapeutic massage balms & hot herbal compress to soothe, calm & de-stress your body, mind & soul. The ritual starts with a relaxing herbal foot bath & tranquillity forehead massage. This is followed by an exfoliating back rub & an extended soothing full body massage. The unique SPA CEYLON massage technique is a fusion of proven rejuvenating therapies to promote total wellbeing & includes specialised movements for comforting.",
+            "pricing": {
+              "local_therapist": 21300,
+              "foreign_therapist": 25300
+            },
+            "benefits": ["Full body pampering", "Stress relief", "Himalayan Rose", "Ceylon Cardamom"]
+          },
+          {
+            "code": "879",
+            "name": "Cardamom Rose Body Ritual with Full Body Scrub",
+            "duration_minutes": 135,
+            "description": "A luxurious full body pampering experience with Himalayan Rose to soothe, calm & help take away daily stress & relax the senses, while luxuriously fragrant Organic Ceylon Cardamom warms, uplifts & clarifies the mind & body. The synergistic action promotes joyous natural wellbeing. The ritual includes therapeutic massage balms & hot herbal compress to soothe, calm & de-stress your body, mind & soul. The ritual starts with a relaxing herbal foot bath & tranquillity forehead massage. This is followed by a full body scrub & an extended soothing full body massage. The unique SPA CEYLON massage technique is a fusion of proven rejuvenating therapies to promote total wellbeing & includes specialised movements for comforting.",
+            "pricing": {
+              "local_therapist": 24400,
+              "foreign_therapist": 28400
+            },
+            "benefits": ["Full body scrub included", "Extended pampering"]
+          }
+        ]
+      },
+      "pampering_experiences_foot_spa": {
+        "description": "Add-on pampering treatments with foot spa",
+        "rituals": [
+          {
+            "code": "943",
+            "name": "Spa Ceylon Hot Oil Scalp Massage",
+            "duration_minutes": 30,
+            "description": "A soothing lie-down scalp massage focusing on chakra points of the head, neck & forehead to comfort & calm the body & mind.",
+            "pricing": {
+              "standard": 4100
+            }
+          },
+          {
+            "code": "950",
+            "name": "Spa Ceylon Hand Scrub",
+            "duration_minutes": 15,
+            "description": "An exfoliating treatment to deep cleanse, purify & smoothen hands while lightening skin.",
+            "pricing": {
+              "standard": 2600
+            }
+          },
+          {
+            "code": "954",
+            "name": "Spa Ceylon Hand Mask",
+            "duration_minutes": 15,
+            "description": "A nourishing & renewing treatment to hydrate, condition & soften hands while enhancing skin radiance.",
+            "pricing": {
+              "standard": 2600
+            }
+          },
+          {
+            "code": "951",
+            "name": "Spa Ceylon Foot Scrub",
+            "duration_minutes": 15,
+            "description": "A cooling & refreshing treatment to deep cleanse, purify & smoothen feet while lightening skin.",
+            "pricing": {
+              "standard": 2600
+            }
+          },
+          {
+            "code": "955",
+            "name": "Spa Ceylon Foot Mask",
+            "duration_minutes": 15,
+            "description": "A nourishing & renewing treatment to hydrate, condition & soften feet while enhancing skin radiance.",
+            "pricing": {
+              "standard": 2600
+            }
+          },
+          {
+            "code": "952",
+            "name": "Spa Ceylon Hand Scrub & Mask",
+            "duration_minutes": 30,
+            "description": "An exfoliating hand scrub to deep cleanse, purify & smoothen hands while lightening skin, followed by a nourishing & renewing hand mask to hydrate, condition & soften hands while enhancing skin radiance.",
+            "pricing": {
+              "standard": 3300
+            }
+          },
+          {
+            "code": "953",
+            "name": "Spa Ceylon Foot Scrub & Mask",
+            "duration_minutes": 30,
+            "description": "A cooling & refreshing foot scrub to deep cleanse, purify & smoothen feet while lightening skin, followed by a nourishing & renewing foot mask to hydrate, condition & soften feet while enhancing skin radiance.",
+            "pricing": {
+              "standard": 3300
+            }
+          },
+          {
+            "code": "968",
+            "name": "Foot Steaming",
+            "duration_minutes": 20,
+            "pricing": {
+              "standard": 1800
+            }
+          },
+          {
+            "code": "801",
+            "name": "Hot Herbal Compress",
+            "duration_minutes": 10,
+            "pricing": {
+              "standard": 2000
+            }
+          },
+          {
+            "code": "802",
+            "name": "Spa Ceylon Foot Massage",
+            "duration_minutes": null,
+            "pricing": {
+              "standard": 4000
+            }
+          }
+        ]
+      },
+      "pampering_experiences_body_rituals": {
+        "description": "Add-on pampering treatments with body rituals",
+        "rituals": [
+          {
+            "code": "940",
+            "name": "Spa Ceylon Body Scrub",
+            "duration_minutes": 30,
+            "description": "A creamy yoghurt body scrub blended with precious Ayurveda herbs to exfoliate, soften & smoothen, increasing skin radiance.",
+            "pricing": {
+              "standard": 5600
+            }
+          },
+          {
+            "code": "942",
+            "name": "Spa Ceylon Cool Protein Hair Mask",
+            "duration_minutes": 30,
+            "description": "A deep penetrating treatment to soothe, nourish & fortify the scalp & hair while repairing damage & adding a rich silky shine.",
+            "pricing": {
+              "standard": 4100
+            }
+          },
+          {
+            "code": "943",
+            "name": "Spa Ceylon Hot Oil Scalp Massage",
+            "duration_minutes": 30,
+            "description": "A soothing lie-down scalp massage focusing on chakra points of the head, neck & forehead to comfort & calm the body & mind.",
+            "pricing": {
+              "standard": 4100
+            }
+          },
+          {
+            "code": "944",
+            "name": "Spa Ceylon Lie-Down Foot Massage",
+            "duration_minutes": 30,
+            "description": "A rejuvenating acupressure massage to soothe tired feet & de-stress entire body while promoting inner healing & harmony.",
+            "pricing": {
+              "standard": 4100
+            }
+          },
+          {
+            "code": "947",
+            "name": "Spa Ceylon Kandyan Back Massage",
+            "duration_minutes": 30,
+            "description": "A relaxing & rejuvenating massage to improve circulation & balance energy flows while relieving muscle tightness & jet lag.",
+            "pricing": {
+              "standard": 4100
+            }
+          },
+          {
+            "code": "946",
+            "name": "Spa Ceylon Deep Tissue Back Massage",
+            "duration_minutes": 30,
+            "description": "An intensive massage to treat, comfort & relieve back & shoulder stiffness while calming & de-stressing the body.",
+            "pricing": {
+              "standard": 4900
+            }
+          },
+          {
+            "code": "849",
+            "name": "Hot Herbal Compress",
+            "duration_minutes": 15,
+            "pricing": {
+              "standard": 2500
+            }
+          },
+          {
+            "code": "941",
+            "name": "Crystal Body Polish",
+            "duration_minutes": 30,
+            "pricing": {
+              "standard": 5600
+            }
+          },
+          {
+            "code": "851",
+            "name": "Facial Massage",
+            "duration_minutes": 20,
+            "pricing": {
+              "standard": 4900
+            }
+          },
+          {
+            "code": "852",
+            "name": "Floral Bath",
+            "duration_minutes": 30,
+            "pricing": {
+              "standard": 9600
+            },
+            "availability": "Available at the Royal & Dutch Square Spas only"
+          },
+          {
+            "code": "869",
+            "name": "Bio-Cellulose Facial Treatment Masque",
+            "duration_minutes": null,
+            "description": "A deep hydrating & nourishing masque.",
+            "pricing": {
+              "standard": 2600
+            }
+          },
+          {
+            "code": "948",
+            "name": "Spa Ceylon Ayur-Pressure Back Massage",
+            "duration_minutes": 30,
+            "description": "A medium pressure massage combined with herbal compress therapy to calm & de-stress the mind while comforting aches & pains.",
+            "pricing": {
+              "standard": 4900
+            }
+          }
+        ]
+      },
+      "pedicure_manicure_rituals": {
+        "description": "Hand and nail care treatments",
+        "rituals": [
+          {
+            "code": "917",
+            "name": "Ultimate Pedicure Ritual",
+            "duration_minutes": 120,
+            "description": "The ultimate purifying, relaxing & pampering treatment for your feet. Includes a complete professional Spa pedicure, foot bath, foot scrub, foot pac, tranquil touch & a generous 30 minutes of blissful foot & leg massage.",
+            "pricing": {
+              "standard": 8700
+            }
+          },
+          {
+            "code": "912",
+            "name": "Luxury Pedicure Ritual",
+            "duration_minutes": 90,
+            "description": "A complete purifying & relaxing treatment for your feet. Includes a complete professional Spa pedicure, foot bath, foot scrub, tranquil touch & 15 minutes of blissful foot & leg massage.",
+            "pricing": {
+              "standard": 6800
+            }
+          },
+          {
+            "code": "938",
+            "name": "Luxury Manicure Ritual",
+            "duration_minutes": 60,
+            "description": "A luxuriously relaxing ritual to pamper your hands & nails. Includes tranquil touch, hand soak, hand scrub & a complete professional Spa manicure with natural nail shining, followed by 20 minutes of indulgent reflexology hand massage.",
+            "pricing": {
+              "standard": 6800
+            }
+          },
+          {
+            "code": "971",
+            "name": "Additional Charge for Nail Polish Application",
+            "description": "For Ultimate Pedicure Ritual, Luxury Pedicure Ritual & Luxury Manicure Ritual",
+            "pricing": {
+              "standard": 1000
+            }
+          },
+          {
+            "code": "864",
+            "name": "French Polish Application",
+            "pricing": {
+              "standard": 1800
+            }
+          }
+        ]
+      },
+      "radiant_glow_body_treatment_rituals": {
+        "description": "Skin brightening and glow treatments for body",
+        "rituals": [
+          {
+            "code": "853",
+            "name": "Stage I - Glow Body Polish Ritual",
+            "duration_minutes": 90,
+            "description": "Purifies, Clarifies & Primes Skin for Renewal Process. An intensive deep cleansing, purifying & brightening body treatment. Naturally exfoliates the skin on the body, helping to remove rough patches, minimise cellulite, hydrate dry areas & improve overall skin tone. The deep-pore action primes skin for absorption of Ayurveda skin radiance actives & helps improve overall skin health. Leaves skin silky smooth & more radiant.",
+            "pricing": {
+              "local_therapist": 14300,
+              "foreign_therapist": 18300
+            },
+            "benefits": ["Deep cleansing", "Cellulite reduction", "Skin brightening"]
+          },
+          {
+            "code": "817",
+            "name": "Stage II - Glow Booster Body Treatment Rituals - Full Body",
+            "duration_minutes": 90,
+            "description": "Nourishes Skin & Accelerates Skin Renewal Process. An intensive toning & radiance boosting treatment. Helps reduce medium to recent sunburn, minimize discolouration, smoothen out imperfections & perfects skin tone. Ayurveda nourishing agents help accelerate the natural skin renewal process, inhibiting the growth of skin darkening cells. Leaves skin glowing & more radiant.",
+            "pricing": {
+              "local_therapist": 15800,
+              "foreign_therapist": 19800
+            }
+          },
+          {
+            "code": "818",
+            "name": "Stage II - Glow Booster Body Treatment Rituals - Full Hands",
+            "duration_minutes": 45,
+            "pricing": {
+              "local_therapist": 8800,
+              "foreign_therapist": 11800
+            }
+          },
+          {
+            "code": "819",
+            "name": "Stage II - Glow Booster Body Treatment Rituals - Full Legs",
+            "duration_minutes": 60,
+            "pricing": {
+              "local_therapist": 10300,
+              "foreign_therapist": 13300
+            }
+          }
+        ]
+      },
+      "intense_spot_treatment_rituals": {
+        "description": "Targeted spot treatments for specific areas",
+        "rituals": [
+          {
+            "code": "820",
+            "name": "Intense Spot Treatment - Elbows",
+            "duration_minutes": 45,
+            "description": "Perfects Skin Tone & Boosts Skin Renewal Process. An intensive toning & renewing treatment for specific problem areas. Helps remove rough patches, minimise discolouration & smoothens out imperfections. Ayurveda nourishing agents help accelerate the natural skin renewal process, inhibiting the growth of skin darkening cells. Leaves skin glowing & more radiant.",
+            "pricing": {
+              "standard": 7300
+            }
+          },
+          {
+            "code": "821",
+            "name": "Intense Spot Treatment - Under-arms",
+            "duration_minutes": 45,
+            "pricing": {
+              "standard": 8800
+            }
+          },
+          {
+            "code": "822",
+            "name": "Intense Spot Treatment - Knees",
+            "duration_minutes": 45,
+            "pricing": {
+              "standard": 8800
+            }
+          },
+          {
+            "code": "823",
+            "name": "Intense Spot Treatment - Neck",
+            "duration_minutes": 90,
+            "pricing": {
+              "standard": 10300
+            }
+          }
+        ]
+      },
+      "glow_facial_treatment_rituals": {
+        "description": "Facial brightening and glow treatments",
+        "availability_note": "Above Facial Rituals not available at Negombo, Galle, Weligama & Dutch Square",
+        "rituals": [
+          {
+            "code": "813",
+            "name": "Stage I - Ultra Glow Facial Treatment Ritual",
+            "duration_minutes": 120,
+            "description": "Purifies, Clarifies & Primes Skin for Renewal Process. A unique soothing, de-stressing & brightening treatment for the face & neck. Inspired by traditional Ayurveda, this 8 step ritual includes skin purification, Floral Micro-Peeling for complete exfoliation, facial compress, deep pore nourishing & clarifying, toning, hydration & revitalising. Helps lighten discolouration, smoothen out imperfections & even out skin tone, while preparing the skin for absorption of Ayurveda skin radiance actives. The ritual benefits skin both inside & out, improving skin health & leaving skin smoother, brighter & more radiant.",
+            "pricing": {
+              "local_therapist": 17900
+            },
+            "benefits": ["8-step ritual", "Floral Micro-Peeling", "Skin brightening"]
+          },
+          {
+            "code": "814",
+            "name": "Stage II - Glow Accelerator Facial Treatment Ritual",
+            "duration_minutes": 90,
+            "description": "Nourishes Skin & Accelerates Skin Renewal Process. A secondary skin treatment with Ayurveda nourishing agents to help inhibit the growth of skin darkening cells & accelerate natural skin renewal process. The ritual includes Precision Silk Peeling to reduce medium to recent sunburn, lighten discolouration, smoothen out imperfections & even out skin tone; to reveal softer & more refreshed skin. The ritual benefits skin both inside & out, nourishing & leaving the skin glowing & more radiant.",
+            "pricing": {
+              "local_therapist": 15500
+            },
+            "benefits": ["Precision Silk Peeling", "Sunburn reduction", "Skin renewal acceleration"]
+          },
+          {
+            "code": "815",
+            "name": "Stage III - Glowlift Facial Treatment Ritual",
+            "duration_minutes": 120,
+            "description": "Perfects Skin Tone & Boosts Skin Renewal Process. A skin brightening & age minimising ritual with specialised techniques to boost skin renewal process. The unique natural infusion of Floral Peel removes residual dead cells & deep seated impurities, to help perfect skin tone, while removing long term sunburn & minimising discolouration. The Thermal Glow Mineral Masque treatment with Ayurveda actives help nourish & tighten skin, improve skin elasticity & deliver younger, brighter & more radiant skin.",
+            "pricing": {
+              "local_therapist": 17900
+            },
+            "benefits": ["Age minimising", "Floral Peel", "Thermal Glow Mineral Masque"]
+          },
+          {
+            "code": "848",
+            "name": "Stage IV - Glow Renewal Facial Peel Ritual",
+            "duration_minutes": 120,
+            "description": "A unique rejuvenating & brightening treatment for the face & neck. This ritual includes Precision Hydro Therapy to remove deep embedded impurities, while moisturising & nourishing the skin at the same time. The Thermal Glow Mineral Masque treatment with Ayurveda actives help nourish & tighten the skin, improve skin elasticity & deliver younger, brighter & more radiant skin.",
+            "pricing": {
+              "local_therapist": 21500
+            },
+            "benefits": ["Precision Hydro Therapy", "Deep impurity removal", "Rejuvenation"]
+          }
+        ]
+      },
+      "soothing_facial_rituals": {
+        "description": "Relaxing and soothing facial treatments",
+        "availability_note": "Above Facial Rituals not available at Negombo, Galle, Weligama & Dutch Square",
+        "rituals": [
+          {
+            "code": "840",
+            "name": "Crystal Facial Ritual",
+            "duration_minutes": 60,
+            "description": "A unique pampering treatment to soothe, calm & de-stress the face & neck. Inspired by traditional Ayurveda, this 8 step ritual incorporates meridian point facial massage with precious mineral crystals, cleansing, facial compress, exfoliating, deep pore nourishing & clarifying, toning, hydration & revitalising. Benefits skin both inside & out, improving skin health & promoting youthful radiance.",
+            "pricing": {
+              "standard": 13200
+            },
+            "benefits": ["8-step ritual", "Meridian point massage", "Mineral crystals"]
+          },
+          {
+            "code": "841",
+            "name": "Crystal Facial Ritual - 90 minutes",
+            "duration_minutes": 90,
+            "pricing": {
+              "standard": 15800
+            }
+          },
+          {
+            "code": "855",
+            "name": "Rose Quartz - Soothing Facial Ritual",
+            "duration_minutes": 90,
+            "description": "A unique hydrating, nourishing & de-stressing treatment to pamper the face & neck. Combines 'Rose Quartz' pressure point therapy with chakra point massage to help soothe, energise & stimulate the skin. The ritual includes a non-invasive 'Natural Silk Peel' to refresh, renew & rejuvenate skin, while your choice of firming or soothing masque completes the experience.",
+            "pricing": {
+              "local_therapist": 15700
+            },
+            "benefits": ["Rose Quartz therapy", "Chakra point massage", "Natural Silk Peel"]
+          },
+          {
+            "code": "842",
+            "name": "Purifying Facial Ritual",
+            "duration_minutes": 45,
+            "description": "A classic deep-cleansing treatment with Ayurveda actives to remove impurities & tone the skin. Helps relieve jet lag through a soothing facial mask. Smoothens, refines & brightens skin so you look rested & visibly more radiant.",
+            "pricing": {
+              "local_therapist": 8000
+            },
+            "benefits": ["Deep cleansing", "Jet lag relief", "Quick refresh"]
+          },
+          {
+            "code": "972",
+            "name": "Neem & Tea Tree - Anti-Acne Balancing Facial Ritual",
+            "duration_minutes": 60,
+            "description": "A unique soothing, balancing & healing facial treatment ritual to help purify & comfort skin, drawing out acne-causing impurities, clearing out clogged pores & eliminating excess oil. The ritual includes precision exfoliation & herbal steam to help calm skin & minimise imperfections. Minimises the appearance of pores, reduces inflammation, helps start acne-clearing & leaves skin feeling refreshed & fortified.",
+            "pricing": {
+              "local_therapist": 13200
+            },
+            "benefits": ["Anti-acne", "Pore clearing", "Oil control", "Inflammation reduction"]
+          },
+          {
+            "code": "973",
+            "name": "White Rice - Age Defence Lifting & Firming Facial Ritual",
+            "duration_minutes": 120,
+            "description": "A rejuvenating & age-minimising facial treatment that helps fight the seven signs of ageing through specialised Ayurveda techniques. Helps firm, smooth, nourish & regenerate skin cells to control bio-chemical triggers that lead to skin ageing. Soft peeling with pure Aloe Vera removes residual dead cells & deep-seated impurities, reducing long-term sunburn. The firming Rice Bran massage helps hydrate skin tissue, adding an instantly plumped feel to skin. The Thermal Mineral Masque with Ayurveda actives helps visibly tighten & lift. Skin is left silky smooth, balanced, firmer & deeply hydrated, while wrinkles are softened and fine lines erased.",
+            "pricing": {
+              "local_therapist": 17900
+            },
+            "benefits": ["Anti-ageing", "Lifting & firming", "Rice Bran massage", "Wrinkle softening"]
+          },
+          {
+            "code": "974",
+            "name": "Frankincense - Skin Energising Face Ritual - For Men",
+            "duration_minutes": 60,
+            "description": "A deep-purifying facial with powerful Ayurveda herbs to lift-off dust, pollution, impurities & excess oil from the skin. Helps remove sunburn, reduce dark patches & minimise rough skin. Includes precision exfoliation & skin balancing, together with a soothing facial massage, followed by fortifying masks to help alleviate razor burn & de-stress tough male skin. Leaves skin feeling rested, refreshed & energised.",
+            "pricing": {
+              "local_therapist": 13100
+            },
+            "benefits": ["For men", "Deep purifying", "Razor burn relief", "Oil control"]
+          },
+          {
+            "code": "975",
+            "name": "Virgin Coconut Deep Hydrating Facial Ritual",
+            "duration_minutes": 60,
+            "description": "A unique pampering ritual infused with the natural goodness of pure Virgin Coconut Oil naturally extracted at source. Rich in nourishing vitamins & protective anti-oxidants to help reinforce, repair & fortify skin, promoting overall wellness. Deeply hydrates, softens, protects & cares for skin. The ritual includes precision exfoliation and deep cleansing followed by a soothing facial massage to help calm skin and minimise imperfections. Improves skin tone and enhances youthfulness.",
+            "pricing": {
+              "local_therapist": 13300
+            },
+            "benefits": ["Deep hydration", "Virgin Coconut Oil", "Anti-oxidant protection"]
+          },
+          {
+            "code": "900",
+            "name": "Moringa Herb - Exfoliating & Smoothening Facial",
+            "duration_minutes": 90,
+            "description": "A luxurious & soothing facial massage that nourishes, smoothens & freshens skin for a brighter, more radiant look. This advanced resurfacing treatment includes a floral peeling & deep-acting Ayurveda herbs that remove excess skin layers, while reducing blackheads & whiteheads. Features a combination of Green Tea, Aloe Vera & Witch Hazel that helps minimise pores. Ideal for managing excess oil & restoring the skin's natural balance.",
+            "pricing": {
+              "local_therapist": 15500
+            },
+            "benefits": ["Moringa Herb", "Blackhead/whitehead removal", "Oil control", "Pore minimising"]
+          },
+          {
+            "code": "995",
+            "name": "Sal & Saffron - Ultra-Hydrating Plumping Facial",
+            "duration_minutes": 120,
+            "description": "A powerful Ayurveda treatment infused with Sal Butter & Saffron that nourishes & hydrates skin, while improving elasticity & enhancing natural moisture retention. Includes precision exfoliation & deep cleaning, followed by a combination of 4D hyaluronic acid, nourishing Vitamin E & Virgin Coconut that hydrates & boosts skin. The Light Therapy Masque is infused with natural active Ayurveda herbs that provide a lighter & natural glow, adding a youthful appearance. The thermal mineral masque uses Ayurveda active herbs that provide a brighter & natural glow, resulting in a youthful look.",
+            "pricing": {
+              "local_therapist": 21500
+            },
+            "benefits": ["Sal Butter & Saffron", "4D hyaluronic acid", "Light Therapy Masque", "Ultra-hydrating"]
+          },
+          {
+            "code": "996",
+            "name": "Bakuchiol - Age Defence Plumping Facial",
+            "duration_minutes": 120,
+            "description": "An intense refining treatment that elevates natural radiance & face contours. Infused with Bakuchiol, a powerful Ayurveda WonderHerb that smoothens, hydrates & firms the skin, while promoting skin elasticity. Includes soft sponge peel off & precision exfoliating, followed by by 4D Hyaluronic acid that deeply hydrates & enhances overall skin renewal using radio frequency therapy. The Lymphatic drainage massage encourages oxygen flow around the face for a healthy complexion & removal of tension. The thermal mineral masque with powerful Ayurveda ingredients tightens & lifts the skin for a radiant & youthful look.",
+            "pricing": {
+              "local_therapist": 21500
+            },
+            "benefits": ["Bakuchiol", "Radio frequency therapy", "Lymphatic drainage", "4D Hyaluronic acid"]
+          },
+          {
+            "code": "884",
+            "name": "Glow Booster Facial Ritual",
+            "duration_minutes": 60,
+            "description": "A luxurious facial treatment to help boost the natural skin glow, incorporating the benefits of an advanced facial within a shorter time duration. Experience the natural goodness of Ayurveda infused with modern skincare technology to relax & indulge yourself. Designed to nourish & enhance skin radiance, while gently extracting impurities, ensuring the skin is protected. The ritual includes deep cleansing, precision exfoliation & glow booster techniques, followed by a relaxing eye & facial massage, to soothe & calm skin. Improves skin clarity & boosts the natural skin glow.",
+            "pricing": {
+              "local_therapist": 13100
+            },
+            "benefits": ["Quick glow boost", "Modern skincare technology", "60-minute option"]
+          }
+        ]
+      },
+      "threading_rituals": {
+        "description": "Hair removal threading services",
+        "availability_note": "Above Facial Rituals not available at Negombo, Galle, Weligama & Dutch Square",
+        "rituals": [
+          {
+            "code": "828",
+            "name": "Threading - Full Face",
+            "pricing": { "standard": 4300 }
+          },
+          {
+            "code": "829",
+            "name": "Threading - Upper Lip",
+            "pricing": { "standard": 1000 }
+          },
+          {
+            "code": "830",
+            "name": "Threading - Chin",
+            "pricing": { "standard": 1100 }
+          },
+          {
+            "code": "831",
+            "name": "Threading - Eyebrows",
+            "pricing": { "standard": 1200 }
+          },
+          {
+            "code": "833",
+            "name": "Threading - Forehead",
+            "pricing": { "standard": 1000 }
+          },
+          {
+            "code": "832",
+            "name": "Threading - Face Sides",
+            "pricing": { "standard": 1800 }
+          }
+        ]
+      },
+      "waxing_rituals": {
+        "description": "Hair removal waxing services",
+        "rituals": [
+          {
+            "code": "834",
+            "name": "Waxing - Full Body",
+            "pricing": { "standard": 15100 }
+          },
+          {
+            "code": "835",
+            "name": "Waxing - Full Hands & Arms",
+            "pricing": { "standard": 4900 }
+          },
+          {
+            "code": "836",
+            "name": "Waxing - Full Legs",
+            "pricing": { "standard": 5600 }
+          },
+          {
+            "code": "989",
+            "name": "Waxing - Full Face",
+            "pricing": { "standard": 6000 }
+          },
+          {
+            "code": "881",
+            "name": "Waxing - Chin",
+            "pricing": { "standard": 1200 }
+          },
+          {
+            "code": "883",
+            "name": "Waxing - Face Sides",
+            "pricing": { "standard": 3000 }
+          },
+          {
+            "code": "837",
+            "name": "Waxing - Stomach",
+            "pricing": { "standard": 4100 }
+          },
+          {
+            "code": "839",
+            "name": "Waxing - Back",
+            "pricing": { "standard": 4100 }
+          },
+          {
+            "code": "838",
+            "name": "Waxing - Under-arms",
+            "pricing": { "standard": 2600 }
+          },
+          {
+            "code": "880",
+            "name": "Waxing - Upper Lip",
+            "pricing": { "standard": 1200 }
+          },
+          {
+            "code": "882",
+            "name": "Waxing - Forehead",
+            "pricing": { "standard": 1500 }
+          }
+        ]
+      },
+      "royal_kandyan_rituals": {
+        "description": "Signature Royal Kandyan collection treatments",
+        "rituals": [
+          {
+            "code": "932",
+            "name": "Kandyan Body Ritual",
+            "duration_minutes": 90,
+            "description": "A luxuriously pampering, relaxing & rejuvenating ritual combining SPA CEYLON Signature Royal Kandyan Massage with 'Peace' formulae & soothing acupressure body therapy with precious mineral crystals from Ceylon. Improves circulation & balances energy flows, relieving muscle tightness & jet lag. Includes soothing head & forehead movements to relieve stress & anxiety, promoting tranquillity.",
+            "pricing": {
+              "local_therapist": 15800,
+              "foreign_therapist": 19800
+            },
+            "benefits": ["Royal Kandyan Massage", "Mineral crystal therapy", "Circulation improvement", "Jet lag relief"]
+          },
+          {
+            "code": "930",
+            "name": "Royal Body Ritual",
+            "duration_minutes": 120,
+            "description": "A luxurious full body pampering experience with therapeutic massage balms & hot herbal compress to sooth, calm & de-stress your body, mind & soul. Our Royal rituals start with a relaxing herbal foot bath & tranquillity forehead massage. This is followed by an exfoliating back rub & an extended soothing full body massage. The unique SPA CEYLON massage technique is a fusion of proven rejuvenating therapies to promote total wellbeing. Includes specialised movements for comforting.",
+            "pricing": {
+              "local_therapist": 19700,
+              "foreign_therapist": 23700
+            },
+            "benefits": ["Full body pampering", "Herbal foot bath", "Back rub", "Extended massage"]
+          },
+          {
+            "code": "965",
+            "name": "Royal Body Ritual with Full Body Scrub",
+            "duration_minutes": 135,
+            "description": "A luxurious full body pampering experience with therapeutic massage balms & hot herbal compress to sooth, calm & de-stress your body, mind & soul. Our Royal rituals start with a relaxing herbal foot bath & tranquillity forehead massage. This is followed by an exfoliating body scrub & an extended soothing full body massage. The unique SPA CEYLON massage technique is a fusion of proven rejuvenating therapies to promote total wellbeing. Includes specialised movements for comforting.",
+            "pricing": {
+              "local_therapist": 22800,
+              "foreign_therapist": 26800
+            },
+            "benefits": ["Full body scrub included", "Extended experience"]
+          },
+          {
+            "code": "929",
+            "name": "Royal Foot Ritual",
+            "duration_minutes": 120,
+            "description": "Our pampering Royal Ritual starts with a relaxing herbal foot bath, foot scrub & tranquillity forehead massage. This is followed by an extended relaxing & rejuvenating acupressure massage to soothe tired feet. Our foot reflexology technique helps de-stress the entire body, promoting inner healing & total harmony. 30 minutes of head, neck & shoulder massage completes this ritual to totally soothe, calm & relax your body, mind & soul.",
+            "pricing": {
+              "local_therapist": 8700,
+              "foreign_therapist": 12700
+            },
+            "benefits": ["Herbal foot bath", "Foot scrub", "Reflexology", "30 min head/neck/shoulder massage"],
+            "notes": "Foreign Therapist option not available at Dehiwala"
+          }
+        ]
+      },
+      "pampering_bridal_packages": {
+        "description": "Special packages for brides and special occasions",
+        "availability_note": "Above Rituals are not available at Galle, Negombo, & Weligama",
+        "packages": [
+          {
+            "name": "Radiance Boost Ritual",
+            "tagline": "A gentle, indulgent glow-up for any special occasion",
+            "includes": [
+              { "ritual": "Ultra Glow Facial Ritual", "duration_minutes": 120, "price": 17900 },
+              { "ritual": "Body Polish Skin Renewal Ritual", "duration_minutes": 60, "price": 12700 },
+              { "ritual": "Ultimate Pedicure", "duration_minutes": 120, "price": 8700 }
+            ],
+            "total_price": 39300,
+            "introductory_offer": {
+              "price": 36000,
+              "bonus": "Complimentary Gift Set"
+            }
+          },
+          {
+            "name": "Blissful Radiance Ritual",
+            "tagline": "Glow-enhancing treatments for body, mind, & soul",
+            "includes": [
+              { "ritual": "Glow Accelerator Facial Treatment Ritual", "duration_minutes": 90, "price": 15500 },
+              { "ritual": "Glow Body Polish Ritual", "duration_minutes": 90, "price": 14300 },
+              { "ritual": "Ultimate Body Ritual (Foreign Therapist)", "duration_minutes": 90, "price": 18300 },
+              { "ritual": "Express Pedicure", "duration_minutes": 45, "price": 6300 }
+            ],
+            "total_price": 54400,
+            "introductory_offer": {
+              "price": 47000,
+              "bonus": "Complimentary Gift Set"
+            }
+          },
+          {
+            "name": "Celestial Glow Ritual",
+            "tagline": "An elevated ritual of transformation and renewal",
+            "includes": [
+              { "ritual": "Glow Renewal Facial Peel", "duration_minutes": 120, "price": 21500 },
+              { "ritual": "Glow Body Polish Ritual (Foreign Therapist)", "duration_minutes": 90, "price": 18300 },
+              { "ritual": "Luxury Body Ritual (Foreign Therapist)", "duration_minutes": 60, "price": 17000 },
+              { "ritual": "Full Body Waxing", "duration_minutes": null, "price": 15100, "note": "Customer dependent" }
+            ],
+            "total_price": 71900,
+            "introductory_offer": {
+              "price": 60000,
+              "bonus": "Complimentary Gift Set"
+            }
+          },
+          {
+            "name": "The Royal Glow Ritual",
+            "tagline": "The Ultimate Spa Ceylon indulgence – radiant, refined, and regal",
+            "includes": [
+              { "ritual": "Glow Renewal Facial Peel", "duration_minutes": 120, "price": 21500 },
+              { "ritual": "Cardamom Rose Body Ritual + Full Body Scrub (Foreign Therapist)", "duration_minutes": 135, "price": 28400 },
+              { "ritual": "Full body waxing", "duration_minutes": null, "price": 15100, "note": "Customer dependent" },
+              { "ritual": "Luxury Pedicure ritual", "duration_minutes": 90, "price": 6800 },
+              { "ritual": "Deep Calming Shiro ritual", "duration_minutes": null, "price": 11800, "note": "Customer dependent" }
+            ],
+            "total_price": 83600,
+            "introductory_offer": {
+              "price": 71000,
+              "bonus": "Complimentary Gift Set"
+            }
+          }
+        ],
+        "notes": [
+          "Check in for a Day Package over Rs. 45,000 & receive a special 10% Discount",
+          "Mix and match treatments according to your personal preference",
+          "All treatments need to be completed on the same day",
+          "Terms and Conditions Apply"
+        ]
+      }
+    }
+  }
+}

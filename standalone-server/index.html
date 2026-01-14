@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spa Ceylon AI Chatbot - Standalone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'spa-green': {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#1A5F4A',
+                            600: '#166040',
+                            700: '#125235',
+                            800: '#0e3d28',
+                            900: '#0a291b',
+                        },
+                        'spa-gold': {
+                            300: '#E5D4A1',
+                            400: '#D4C089',
+                            500: '#C9A962',
+                            600: '#B8944D',
+                        },
+                        'spa-cream': '#FDF8F3',
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; }
+    </style>
+</head>
+<body class="bg-spa-cream min-h-screen">
+    <div id="root" class="min-h-screen flex items-center justify-center p-4">
+        <div class="max-w-4xl w-full">
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 text-center">
+                <h1 class="text-4xl font-bold text-spa-green-700 mb-2" style="font-family: 'Playfair Display', serif;">
+                    Spa Ceylon AI Chatbot
+                </h1>
+                <p class="text-gray-600 mb-4">
+                    Standalone chatbot interface
+                </p>
+                <p class="text-sm text-gray-500">
+                    The chat button will appear in the bottom right corner
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Load React and the chatbot from the main app -->
+    <script type="module">
+        // This will load the chatbot widget from the main React app
+        // For now, we'll create a simple iframe or redirect
+        window.location.href = 'http://localhost:5173/standalone.html';
+    </script>
+</body>
+</html>

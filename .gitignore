@@ -5,6 +5,10 @@
 server/.env
 client/.env
 
+# Documentation (exclude PRD)
+Spa_Ceylon_AI_Chatbot_PRD_v2.md
+*PRD*.md
+
 # Dependencies
 node_modules/
 server/node_modules/

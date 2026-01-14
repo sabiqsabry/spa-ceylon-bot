@@ -1,83 +1,110 @@
-# Spa Ceylon AI Chatbot
+# 🪷 Spa Ceylon AI Chatbot
 
-A fully functional AI-powered chatbot for Spa Ceylon (luxury Ayurveda brand) built with React, Node.js, and Claude API. The chatbot appears as a floating widget on a dummy e-commerce website and provides intelligent, context-aware conversations about products, spa services, and Ayurvedic wellness.
+<div align="center">
 
-## 🚀 Features
+![React](https://img.shields.io/badge/React-18.0-blue?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38bdf8?logo=tailwind-css)
+![Claude API](https://img.shields.io/badge/Claude-Sonnet_4.5-orange?logo=anthropic)
+![License](https://img.shields.io/badge/License-Portfolio-purple)
 
-- **AI-Powered Conversations**: Uses Claude Sonnet 4.5 API for natural, context-aware responses
-- **Comprehensive Knowledge Base**: Embedded system prompt with complete spa menu (100+ rituals), product catalog, Dosha system, and brand information
-- **Floating Chat Widget**: Elegant, responsive chat interface that works seamlessly on desktop and mobile
-- **Session Management**: Maintains conversation history per user session
-- **Brand-Aligned Design**: Matches Spa Ceylon's luxury Ayurveda aesthetic with custom color palette
-- **Dummy E-Commerce Site**: Realistic background website showcasing products and spa services
+**A beautiful WhatsApp-style floating chatbot widget powered by Claude AI for Spa Ceylon's luxury Ayurveda brand**
 
-## 📋 Prerequisites
+[Demo Video](https://x.com/i/status/2011426929505861710) • [Features](#-features) • [Installation](#-installation) • [API Documentation](#-api-endpoints)
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Claude API key from Anthropic
+</div>
 
-## 🛠️ Installation
+---
 
-### 1. Clone the repository
+## 📹 Demo
 
-```bash
-git clone <repository-url>
-cd SP-Chatbot
-```
+**Watch the chatbot in action:** [Demo Video on X/Twitter](https://x.com/i/status/2011426929505861710)
 
-### 2. Backend Setup
+The chatbot features a sleek WhatsApp-inspired design with smooth animations, proper message bubbles, typing indicators, and a floating action button that opens a beautiful chat window.
 
-```bash
-cd server
-npm install
-```
+---
 
-Create a `.env` file in the `server` directory:
+## ✨ Features
 
-```env
-ANTHROPIC_API_KEY=your_claude_api_key_here
-PORT=3001
-NODE_ENV=development
-```
+- 🤖 **AI-Powered Conversations** - Uses Claude Sonnet 4.5 API for natural, context-aware responses
+- 💬 **WhatsApp-Style UI** - Beautiful floating chat widget with smooth animations
+- 📚 **Comprehensive Knowledge Base** - Complete spa menu (100+ rituals), product catalog, Dosha system
+- 🎨 **Brand-Aligned Design** - Spa Ceylon's luxury Ayurveda aesthetic with custom color palette
+- 📱 **Fully Responsive** - Works seamlessly on desktop and mobile devices
+- 🔄 **Session Management** - Maintains conversation history per user session
+- ⚡ **Real-time Typing Indicators** - Animated dots while waiting for AI responses
+- 🎯 **Smart Recommendations** - Product suggestions based on skin type, Dosha, or preferences
 
-### 3. Frontend Setup
+---
 
-```bash
-cd ../client
-npm install
-```
+## 🚀 Quick Start
 
-Create a `.env` file in the `client` directory:
+### Prerequisites
 
-```env
-VITE_API_URL=http://localhost:3001/api
-```
+- **Node.js** (v18 or higher)
+- **npm** or **yarn**
+- **Claude API Key** from [Anthropic](https://console.anthropic.com/)
 
-## 🚀 Running the Application
+> ⚠️ **Important:** You need your own Claude API key to run this project. API keys are never committed to the repository for security reasons.
 
-### Terminal 1 - Backend Server
+### Installation
 
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sabiqsabry/spa-ceylon-bot.git
+   cd spa-ceylon-bot
+   ```
+
+2. **Backend Setup**
+   ```bash
+   cd server
+   npm install
+   ```
+   
+   Create a `.env` file in the `server` directory:
+   ```env
+   ANTHROPIC_API_KEY=your_claude_api_key_here
+   PORT=3001
+   NODE_ENV=development
+   ```
+   
+   > 🔒 **Security Note:** Never commit your `.env` file. It's already in `.gitignore` for your protection.
+
+3. **Frontend Setup**
+   ```bash
+   cd ../client
+   npm install
+   ```
+   
+   Create a `.env` file in the `client` directory:
+   ```env
+   VITE_API_URL=http://localhost:3001/api
+   ```
+
+### Running the Application
+
+**Terminal 1 - Backend Server:**
 ```bash
 cd server
 npm run dev
 ```
+Backend runs on: `http://localhost:3001`
 
-The backend will run on `http://localhost:3001`
-
-### Terminal 2 - Frontend Development Server
-
+**Terminal 2 - Frontend Development Server:**
 ```bash
 cd client
 npm run dev
 ```
+Frontend runs on: `http://localhost:5173`
 
-The frontend will run on `http://localhost:5173`
+Open `http://localhost:5173` in your browser to see the chatbot! 🎉
+
+---
 
 ## 📁 Project Structure
 
 ```
-spa-ceylon-chatbot/
+spa-ceylon-bot/
 ├── server/                          # Node.js Backend
 │   ├── server.js                    # Express app entry point
 │   ├── routes/
@@ -94,23 +121,28 @@ spa-ceylon-chatbot/
 ├── client/                          # React Frontend
 │   ├── src/
 │   │   ├── components/
-│   │   │   ├── chatbot/             # Chat widget components
-│   │   │   └── website/             # Dummy e-commerce site
-│   │   ├── data/
-│   │   │   └── products.js          # Sample product data
+│   │   │   └── chatbot/             # Chat widget components
+│   │   │       ├── ChatWidget.jsx   # Main chat component
+│   │   │       ├── ChatMessage.jsx  # Message bubble component
+│   │   │       ├── TypingIndicator.jsx
+│   │   │       └── QuickReplies.jsx
+│   │   ├── styles/
+│   │   │   └── chatbot.css          # Custom styles
 │   │   └── App.jsx                  # Main app component
 │   └── package.json
 │
 └── README.md
 ```
 
+---
+
 ## 🔌 API Endpoints
 
-### POST `/api/chat/message`
+### `POST /api/chat/message`
 
 Send a message to the chatbot.
 
-**Request Body:**
+**Request:**
 ```json
 {
   "message": "What's good for stress?",
@@ -127,26 +159,18 @@ Send a message to the chatbot.
 }
 ```
 
-### POST `/api/chat/clear`
+### `POST /api/chat/clear`
 
 Clear conversation history for a session.
 
-**Request Body:**
+**Request:**
 ```json
 {
   "sessionId": "uuid-string"
 }
 ```
 
-**Response:**
-```json
-{
-  "success": true,
-  "message": "Conversation cleared"
-}
-```
-
-### GET `/api/health`
+### `GET /api/health`
 
 Health check endpoint.
 
@@ -158,27 +182,49 @@ Health check endpoint.
 }
 ```
 
-## 🎨 Brand Colors
+---
 
-The application uses Spa Ceylon's brand color palette:
+## 🎨 Design Features
 
-- **Primary Green**: `#1A5F4A` (spa-green-500)
-- **Gold Accent**: `#C9A962` (spa-gold-500)
-- **Cream Background**: `#FDF8F3` (spa-cream)
+### WhatsApp-Style UI
+- **Floating Action Button (FAB)** - Circular green button in bottom-right corner
+- **Chat Window** - 380px × 600px popup with smooth animations
+- **Message Bubbles** - Green for user, white for bot with proper tails
+- **Typing Indicator** - Animated bouncing dots
+- **Timestamps** - On all messages
+- **Read Receipts** - Double checkmarks on user messages
 
-## 🧪 Testing
+### Brand Colors
+- **Primary Green**: `#1A5F4A` (Spa Ceylon brand color)
+- **User Messages**: `#DCF8C6` (Light green, WhatsApp-style)
+- **Bot Messages**: `#FFFFFF` (White with shadow)
+- **Chat Background**: `#ECE5DD` (Beige, WhatsApp-style)
+- **Input Area**: `#F0F0F0` (Light gray)
 
-### Manual Testing Checklist
+---
 
-1. ✅ Ask about spa prices - should return accurate numbers
-2. ✅ Ask for Dosha quiz - should ask relevant questions
-3. ✅ Ask about bridal packages - should list all 4 with prices
-4. ✅ Ask for cheapest/most expensive options - should filter correctly
-5. ✅ Ask about location-specific services - should mention restrictions
-6. ✅ Have a 10+ message conversation - should maintain context
-7. ✅ Test on mobile viewport - should be fully usable
-8. ✅ Test with slow network - should show loading states gracefully
-9. ✅ Test error handling - disconnect API and check fallback
+## 🧠 Chatbot Capabilities
+
+The chatbot can help users with:
+
+- 💆 **Spa Service Guidance** - Complete pricing for 100+ spa rituals (Local vs Foreign therapist)
+- 🛍️ **Product Recommendations** - Based on skin type, Dosha, or preferences
+- 🧘 **Dosha Quiz** - Interactive discovery of Ayurvedic body type (Vata, Pitta, Kapha)
+- 📍 **Location Assistance** - Information about 18 spa locations in Sri Lanka
+- 🎁 **Gifting Advice** - Gift sets and bridal package recommendations
+- 📞 **Booking Guidance** - Contact information and service hours
+
+---
+
+## 🛠️ Technologies Used
+
+- **Frontend**: React 18, Vite, Tailwind CSS v4, Framer Motion, Lucide Icons
+- **Backend**: Node.js, Express, Anthropic SDK
+- **AI**: Claude Sonnet 4.5 (`claude-sonnet-4-5-20250929`)
+- **State Management**: React Hooks
+- **Styling**: Tailwind CSS with custom brand palette
+
+---
 
 ## 🚢 Deployment
 
@@ -202,61 +248,91 @@ Set environment variable:
    - `PORT`: 3001 (or your preferred port)
    - `NODE_ENV`: production
 
-## 📝 Key Features
-
-### Chatbot Capabilities
-
-- Product recommendations based on skin type, Dosha, or preferences
-- Spa service guidance with accurate pricing (Local vs Foreign therapist)
-- Interactive Dosha quiz to discover Ayurvedic body type
-- Location assistance for 18 spa locations in Sri Lanka
-- Gifting advice and bridal package recommendations
-- Booking guidance with contact information
-
-### System Prompt
-
-The system prompt (`server/data/systemPrompt.js`) includes:
-- Complete brand identity and philosophy
-- All 100+ spa rituals with pricing
-- Three Dosha system with product recommendations
-- Product catalog structure (450+ products)
-- 18 spa locations with availability restrictions
-- Response guidelines and example interactions
+---
 
 ## 🔧 Configuration
 
 ### Environment Variables
 
-**Server (.env):**
-- `ANTHROPIC_API_KEY`: Required - Your Claude API key
-- `PORT`: Optional - Server port (default: 3001)
-- `NODE_ENV`: Optional - Environment (development/production)
+**Server (`server/.env`):**
+```env
+ANTHROPIC_API_KEY=your_claude_api_key_here  # REQUIRED
+PORT=3001                                    # Optional (default: 3001)
+NODE_ENV=development                         # Optional
+```
 
-**Client (.env):**
-- `VITE_API_URL`: Optional - Backend API URL (default: http://localhost:3001/api)
+**Client (`client/.env`):**
+```env
+VITE_API_URL=http://localhost:3001/api      # Optional (default: http://localhost:3001/api)
+```
 
-## 📚 Technologies Used
+> ⚠️ **Remember:** You must obtain your own Claude API key from Anthropic. The project will not work without it.
 
-- **Frontend**: React 18, Vite, Tailwind CSS, Framer Motion, Lucide Icons
-- **Backend**: Node.js, Express, Anthropic SDK
-- **AI**: Claude Sonnet 4.5 (claude-sonnet-4-5-20250929)
-- **State Management**: React Context API
-- **Styling**: Tailwind CSS with custom brand palette
+---
+
+## 🧪 Testing
+
+### Manual Testing Checklist
+
+- [x] Ask about spa prices - returns accurate numbers
+- [x] Ask for Dosha quiz - asks relevant questions
+- [x] Ask about bridal packages - lists all 4 with prices
+- [x] Ask for cheapest/most expensive options - filters correctly
+- [x] Ask about location-specific services - mentions restrictions
+- [x] 10+ message conversation - maintains context
+- [x] Mobile viewport - fully usable
+- [x] Error handling - graceful fallback messages
+
+---
+
+## 📝 Key Implementation Details
+
+### System Prompt
+The comprehensive system prompt (`server/data/systemPrompt.js`) includes:
+- Complete brand identity and philosophy
+- All 100+ spa rituals with accurate pricing
+- Three Dosha system with product recommendations
+- Product catalog structure (450+ products)
+- 18 spa locations with availability restrictions
+- Response guidelines and example interactions
+
+### Session Management
+- Each user session gets a unique UUID
+- Conversation history maintained in memory (last 20 messages)
+- Ready for Redis/database integration in production
+
+---
 
 ## 🤝 Contributing
 
 This is a portfolio project. For questions or suggestions, please open an issue.
 
+---
+
 ## 📄 License
 
 This project is for portfolio/demonstration purposes.
 
+---
+
 ## 🙏 Acknowledgments
 
-- Spa Ceylon for brand inspiration and product information
-- Anthropic for Claude API
-- All open-source contributors
+- **Spa Ceylon** - Brand inspiration and product information
+- **Anthropic** - Claude API
+- **All open-source contributors** - For the amazing tools and libraries
 
 ---
 
-**Note**: Remember to add your Claude API key to `server/.env` before running the application.
+## 📞 Contact
+
+For questions or feedback, please open an issue on GitHub.
+
+---
+
+<div align="center">
+
+**Made with ❤️ for Spa Ceylon**
+
+⭐ Star this repo if you find it helpful!
+
+</div>

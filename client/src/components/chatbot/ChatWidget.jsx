@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { MessageCircle, X, Send, Loader2, Smile } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import ReactMarkdown from 'react-markdown';
 import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -177,9 +178,50 @@ export default function ChatWidget() {
                           : 'bg-white text-[#111827] rounded-bl-sm shadow-sm'
                       }`}
                     >
-                      <p className="text-sm leading-relaxed whitespace-pre-wrap break-words">
-                        {msg.content}
-                      </p>
+                      {msg.role === 'user' ? (
+                        <p className="text-sm leading-relaxed whitespace-pre-wrap break-words">
+                          {msg.content}
+                        </p>
+                      ) : (
+                        <div className="text-sm leading-relaxed break-words chat-markdown">
+                          <ReactMarkdown
+                            components={{
+                              h2: ({ children }) => (
+                                <p className="font-bold text-[13px] text-[#1A5F4A] mt-4 mb-1.5 first:mt-0">{children}</p>
+                              ),
+                              h3: ({ children }) => (
+                                <p className="font-semibold text-[13px] mt-3 mb-1 first:mt-0">{children}</p>
+                              ),
+                              strong: ({ children }) => (
+                                <span className="font-semibold">{children}</span>
+                              ),
+                              ul: ({ children }) => (
+                                <ul className="my-1.5 ml-1 space-y-1.5">{children}</ul>
+                              ),
+                              ol: ({ children }) => (
+                                <ol className="my-1.5 space-y-1.5">{children}</ol>
+                              ),
+                              li: ({ children }) => (
+                                <li className="text-sm leading-relaxed flex gap-1.5 items-start">
+                                  <span className="text-[#1A5F4A] mt-[1px] shrink-0">•</span>
+                                  <span className="flex-1">{children}</span>
+                                </li>
+                              ),
+                              p: ({ children }) => (
+                                <p className="mb-3 last:mb-0">{children}</p>
+                              ),
+                              hr: () => (
+                                <hr className="my-3 border-gray-200" />
+                              ),
+                              a: ({ href, children }) => (
+                                <a href={href} target="_blank" rel="noopener noreferrer" className="text-[#1A5F4A] underline">{children}</a>
+                              ),
+                            }}
+                          >
+                            {msg.content}
+                          </ReactMarkdown>
+                        </div>
+                      )}
                       <div className={`flex items-center gap-1 mt-1 ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
                         <span className="text-[10px] text-[#6B7280]">
                           {formatTime(msg.timestamp)}

@@ -27,6 +27,39 @@
   scroll-behavior: smooth;
 }
 
+/* Markdown inside chat bubbles */
+.chat-markdown > *:first-child {
+  margin-top: 0 !important;
+}
+
+.chat-markdown > *:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Ensure list items inside markdown don't collapse together */
+.chat-markdown ul > li,
+.chat-markdown ol > li {
+  display: flex;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* Paragraphs inside list items shouldn't add extra bottom margin */
+.chat-markdown li p {
+  margin-bottom: 0 !important;
+}
+
+.chat-markdown ol {
+  list-style: decimal;
+  margin: 6px 0;
+  padding-left: 20px;
+}
+
+.chat-markdown ol > li {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 /* Mobile responsive adjustments */
 @media (max-width: 480px) {
   .chat-window {
